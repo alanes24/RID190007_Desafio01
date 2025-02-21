@@ -1,22 +1,24 @@
 *{
     font-family: "inter";
+    margin: 0px;
 }
 #menu-superior{
     background-color: #303030;
-width: 1400px;
-height: 475px;
-margin-top: 0px;
+    height: 200px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 30px;
 }
 #titulomenu-superior{
-    size: 60px;
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 72px;
-    width: 1024px;
     left: 62px;
-    padding-top: 225px;
-    padding-left: 50px;
-
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
 }
 #titulo2menu-superior{
     color:#FFFFFF;
@@ -25,7 +27,7 @@ margin-top: 0px;
     line-height: 28px;
     width: 1024px;
     left: 62px;
-padding-left: 45px;
+    padding-left: 10px;
 }
 .bannersuperior{
     align-items: center;
@@ -34,94 +36,90 @@ padding-left: 45px;
     columns: auto;
     padding-top: 170px;
     background-color: #f9f9f9;
+    padding-top: 100px;
     }
 .textobanner{
     align-items: center;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 10px;
+    line-height: 20px;
     color: black;
-    width: 292px;
-    height: 66.18px;
     margin-left: 130px;
 }
 span{
-    font-size: 40px;
-    font-weight: 600px;
+    font-size: 5px;
+    font-weight: 5px;
     font-style: bold;
 }
 .textobannercentral{
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align:justify;
+    white-space:nowrap;
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-top: -200px;
     display: grid;
     grid-auto-flow: column;
-   columns: auto;
-   text-align:justify;
-   white-space:nowrap;
-   margin-left: 30px;
-  margin-top: -100px;
+    flex-direction: column;
 }
 span{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 20px;
-    font-weight: 500;
-
-    
+    font-weight: 200px; 
 }
 #foto{
-    width: 510px;
-    height: 605px;
-    top:781px;
+    width: 300px;
     margin-left: 150px;
     border-radius: 30px;
-    padding-top: 190px;
-  
+    padding-top: 100px;
+    display: grid;
+    columns: auto;
+    margin-top: 150px;
+    padding-bottom: 40px;
 }
 .textoinformativo{
     padding-top: 400px;
 }
 #formulario{
     text-align: center;
-    width: 1440px;
-    height:638px;
+    width: 1500px;
+    height:300px;
     top: 1478px;
     background-color: #303030;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700px;
     line-height: 48px;
     color: #FFFFFF;
     padding-top: 50px;
 }
 input{
-    width: 508px;
-    height: 72px;
+    width: 200px;
+    height: 42px;
     background-color: #FFFFFF;
     border: 0px;
     border-radius: 10px;
     font-family:"Raleway";
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 20px;
     padding-left: 30px;
-    font-weight: 700;
+    font-weight: 300px;
     color: rgba(0, 0, 0, 0.301);
 }
 button{
     background-color:#C07212;
     font-family: "Raleway";
-    width: 286px;
-    height: 74px;
-    top: 1955px;
+    width: 200px;
+    height: 54px;
+    top: 200px;
     left: 577px;
     border-radius: 10px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
     margin-top: 50px;
     text-align: center;
     cursor:pointer;
-   
 }
 button:hover{
     background-color: #C07212;
